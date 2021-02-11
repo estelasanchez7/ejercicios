@@ -1,23 +1,25 @@
 <template>
 <div>
  <label :class="clases">{{label}}</label>
-  <input @keydown="comprobar" />
+  <input @keyup="comprobar"/>
 </div>
 </template>
 
 <script>
 import {ref} from "vue"
 export default {
-  name: "NIF",
+  name: "Inputvalidator",
   props: {
     label: String,
+    mask: String
   },
-  setup() {
+  setup(props) {
     let clases=ref("label-bad")
     const comprobar=(e)=>{
         console.log(e.target.value)
         let texto= e.target.value
-        let exp= /^\d{8}[a-zA-Z]{1}$/
+        //let exp= /^\d{8}[a-zA-Z]{1}$/
+        let exp= new RegExp(props.mask)
         if(exp.test(texto))
             clases.value="label-ok"
         else
