@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Ejercicio1  from '../views/Ejercicio1.vue'
 import Ejercicio3  from '../views/Ejercicio3.vue'
+import Ejercicio4  from '../views/Ejercicio4.vue'
+import Ejercicio5  from '../views/Ejercicio5.vue'
 
 const routes = [
   {
@@ -28,6 +30,16 @@ const routes = [
     path: '/ejercicio3',
     name: 'Ejercicio3',
     component: Ejercicio3
+  },
+  {
+    path: '/ejercicio4',
+    name: 'Ejercicio4',
+    component: Ejercicio4
+  },
+  {
+    path: '/ejercicio5',
+    name: 'Ejercicio5',
+    component: Ejercicio5
   }
 ]
 

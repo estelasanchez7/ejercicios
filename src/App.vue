@@ -3,7 +3,9 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/ejercicio1">Ejercicio 1</router-link> |
-    <router-link to="/ejercicio3">Ejercicio 3</router-link>
+    <router-link to="/ejercicio3">Ejercicio 3</router-link> |
+    <router-link to="/ejercicio4">Ejercicio 4</router-link> |
+    <router-link to="/ejercicio5">Ejercicio 5</router-link>
      <router-view/>
   </div>
  
