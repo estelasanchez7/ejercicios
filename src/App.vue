@@ -5,8 +5,11 @@
     <router-link to="/ejercicio1">Ejercicio 1</router-link> |
     <router-link to="/ejercicio3">Ejercicio 3</router-link> |
     <router-link to="/ejercicio4">Ejercicio 4</router-link> |
-    <router-link to="/ejercicio5">Ejercicio 5</router-link>
-     <router-view/>
+    <router-link to="/ejercicio5">Ejercicio 5</router-link> |
+    <router-link to="/ejercicio6">Ejercicio 6</router-link> |
+    <router-link to="/ejercicio7">Ejercicio 7</router-link> |
+    <router-link to="/ejercicio8">Ejercicio 8</router-link>
+    <router-view/>
   </div>
  
 </template>
