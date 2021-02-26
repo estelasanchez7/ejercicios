@@ -19,8 +19,8 @@
       </option>
     </select>
 
-  <div v-show="informacion.datos">
-      <!--<p> HUMEDAD: {{ informacion.datos.humedad }} % </p> <br>-->
+  <div v-if="informacion.datos">
+      <p> HUMEDAD: {{ informacion.datos.humedad }} % </p> <br>
        <p> LATITUD: {{ informacion.datos.municipio.LATITUD_ETRS89_REGCAN95 }}</p> <br>
        <p> LONGITUD: {{ informacion.datos.municipio.LONGITUD_ETRS89_REGCAN95 }}</p>  <br>
   </div>

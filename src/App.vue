@@ -8,7 +8,10 @@
     <router-link to="/ejercicio5">Ejercicio 5</router-link> |
     <router-link to="/ejercicio6">Ejercicio 6</router-link> |
     <router-link to="/ejercicio7">Ejercicio 7</router-link> |
-    <router-link to="/ejercicio8">Ejercicio 8</router-link>
+    <router-link to="/ejercicio8">Ejercicio 8</router-link> |
+    <router-link to="/ejercicio9">Ejercicio 9</router-link> |
+    <router-link to="/pruebas">Pruebas Back</router-link> |
+     <router-link to="/multidioma">Multidioma</router-link>
     <router-view/>
   </div>
  
